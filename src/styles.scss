@@ -6,6 +6,7 @@
   --white-color: #FFFFFF;
   --pink-color: #AE7AFF;
   --grey-color: #5F646D;
+  --dark-hover-color: #161616;
 }
 
 *,
@@ -20,7 +21,8 @@ body {
   font-family: "JetBrains Mono", sans-serif;
   background: var(--dark-color);
   color: var(--white-color);
-  background-image: url(/assets/imgs/background.jpg);
+  background-image : url(/assets/imgs/background.jpg);
+  background-size: 100%;
 }
 
 .skill-tag {
