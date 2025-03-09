@@ -2,6 +2,8 @@
   display: block;
   padding: 20px 12px;
   background: none;
+  position: relative;
+  background: var(--dark-color);
 
 }
 
@@ -28,12 +30,76 @@
   text-align: left;
   border-radius: 2px;
 
-
-
-
   &:hover,
   &:focus-visible {
     background: var(--dark-hover-color);
-    color: var(--pink-color)
+    color: var(--pink-color);
+
+    .icon {
+    color: var(--pink-color);
+  }
   }
 }
+
+
+
+.to-subscribers {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.to-subscribers-link {
+  color: var(--pink-color);
+  text-decoration: none;
+  padding: 20px 16px;
+}
+
+.to-subscribers-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--pink-color);
+}
+.subscribers {
+  color: var(--grey-white-color);
+  padding: 20px 16px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+}
+.sidebar__footer {
+  position: absolute;
+  bottom: 20px;
+  width: 280px;
+  height: 40px;
+  background: var(--dark-color);
+  border-radius: 2px;
+  padding: 4px 16px;
+  display: grid;
+  grid-template-columns: 32px 1fr 14px;
+  grid-gap: 12px;
+  align-items: center;
+
+  &:hover {
+    background: var(--dark-hover-color);
+    cursor: pointer;
+  }
+}
+
+.my-img__footer {
+  width: 32px;
+  height: 32px;
+  border-right: 50px;
+}
+
+.username-text {
+  font-weight: 700;
+  color: var(--pink-color);
+}
+
+.settings-svg {
+  width: 13px;
+  height: 13px;
+}
+
+
