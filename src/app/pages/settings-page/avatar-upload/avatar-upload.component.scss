@@ -1,0 +1,39 @@
+:host {
+  display: grid;
+  grid-template-columns: 123px 1fr;
+  grid-gap: 32px;
+  border: none;
+  border-bottom: 1px solid var(--white-color);
+  padding-bottom: 16px;
+}
+
+.avatar {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+}
+
+.drop-zone {
+  border-radius: 2px;
+  border: 1px dashed var(--white-color);
+  padding: 16px;
+  display: grid;
+  place-content: center;
+}
+
+.dropzone-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .upload-svg {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 18px;
+  }
+}
+
+.avatar-input {
+  display: none;
+}
+
